@@ -1,7 +1,7 @@
 """
 
   Hand Isolation Method : Skin-colour segmentation (YCrCb) + morphology
-                          + largest-contour detection   [NO MediaPipe / No landmarks]
+                          + largest-contour detection 
   Temporal gestures     : HELLO, COME  → saved as numbered FRAME SEQUENCES
   Static-motion gestures: YES, NO, PLEASE, STOP, WATER, HELP, SORRY,
                           THANK_YOU, UP, DOWN
