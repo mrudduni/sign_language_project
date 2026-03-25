@@ -47,7 +47,7 @@ EPOCHS           = 30
 BATCH_SIZE       = 32
 MODEL_SAVE_PATH  = "gesture_model.h5"
 
-# Matches the GESTURES dict in data collector (same order = same label index)
+# Matches the GESTURES dict in data collector
 GESTURE_CLASSES = [
     "hello",      # 0  - temporal
     "come",       # 1  - temporal
