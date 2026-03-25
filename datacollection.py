@@ -1,5 +1,4 @@
 """
-
   Hand Isolation Method : Skin-colour segmentation (YCrCb) + morphology
                           + largest-contour detection 
   Temporal gestures     : HELLO, COME  → saved as numbered FRAME SEQUENCES
