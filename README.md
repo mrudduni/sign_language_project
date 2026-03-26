@@ -120,7 +120,7 @@ Points the webcam at your hand. When a gesture is confirmed, the system speaks t
 
 Detection behaviour:
 - Static gestures require 10 consecutive frames to agree with confidence above 75% before confirming.
-- Temporal gestures (hello, come) accumulate 30 frames, compute a per-pixel mean, and run a single inference on the averaged image — matching exactly how the model was trained.
+- Temporal gestures (hello, come) accumulate 30 frames, compute a per-pixel mean, and run a single inference on the averaged image, matching exactly how the model was trained.
 - A 3-second cooldown prevents the same word from being repeated continuously.
 
 Press Q to quit.
